@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>Airtest Report </title>
+    
+    <!--[if lt IE 9]>
+    <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="static//css/report.css" rel="stylesheet">
+
+    <script src="static//js/jquery-1.10.2.min.js"></script>
+    <script src="static//js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+    <script src="static//js/langpack/zh_CN.js" charset="utf-8" type="text/javascript"></script>
+    <script src="static//js/lazyload.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">
+      data = {"steps": [{"title": "Keyevent", "time": 1613819647.0712736, "code": {"name": "keyevent", "args": [{"key": "keyname", "value": "KEYCODE_HOME"}, {"key": "kwargs", "value": {}}]}, "screen": {"src": null, "rect": [], "pos": [], "vector": [], "confidence": null}, "desc": "Click [KEYCODE_HOME] button", "traceback": null, "assert": null}, {"title": "shell", "time": 1613819647.2148485, "code": {"name": "shell", "args": [{"key": "cmd", "value": "pm list packages"}]}, "screen": {"src": null, "rect": [], "pos": [], "vector": [], "confidence": null}, "desc": null, "traceback": null, "assert": null}, {"title": "start_app", "time": 1613819647.5559692, "code": {"name": "start_app", "args": [{"key": "package", "value": "ctrip.android.view"}, {"key": "activity", "value": null}]}, "screen": {"src": null, "rect": [], "pos": [], "vector": [], "confidence": null}, "desc": null, "traceback": null, "assert": null}, {"title": "Sleep", "time": 1613819652.5584445, "code": {"name": "sleep", "args": [{"key": "secs", "value": 5}]}, "screen": {"src": null, "rect": [], "pos": [], "vector": [], "confidence": null}, "desc": "Wait for 5 seconds", "traceback": null, "assert": null}, {"title": "record_ui", "time": 1613819652.832683, "code": {"name": "record_ui", "args": [{"key": "driver", "value": "<poco.drivers.android.uiautomation.AndroidUiautomationPoco object at 0x000001C433A270C8>"}, {"key": "action", "value": "'click'"}, {"key": "ui", "value": "UIObjectProxy of \"ctrip.android.publicproduct:id/home_tab_bar_icon_iv\""}, {"key": "args", "value": "[0.1, 0.9602564102564103]"}]}, "screen": {"src": null, "rect": [], "pos": [], "vector": [], "confidence": null}, "desc": null, "traceback": null, "assert": null}, {"title": "Touch", "time": 1613819655.0969503, "code": {"name": "touch", "args": [{"key": "v", "value": [144.0, 2996.0]}, {"key": "kwargs", "value": {"duration": 0.01}}, {"key": "times", "value": 1}]}, "screen": {"src": "log\\1613819654368.jpg", "rect": [], "pos": [[144.0, 2996.0]], "vector": [], "confidence": null, "_filepath": "log\\1613819654368.jpg", "thumbnail": "log\\1613819654368_small.jpg"}, "desc": "Touch coordinates [144.0, 2996.0]", "traceback": null, "assert": null}], "name": "log/test_food_search.log", "scale": 0.5, "test_result": true, "run_end": 1613819655.0969503, "run_start": 1613819646.5177212, "static_root": "static//", "lang": "en", "records": [], "info": {"name": "test_food_search.air", "path": "D:\\Users\\hulu\\PycharmProjects\\my_airtest\\test_food_search.air\\test_food_search.py", "author": "hulu", "title": "", "desc": ""}}
+      lang = new Lang();
+      lang.init({
+        defaultLang: 'en',
+        currentLang: 'en'
+      });
+    </script>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div id="main" class="main col-md-12">
+          <div id="back_multi"></div>
+          <h1 class="title">Airtest Report </h1>
+          
+          <div class="summary" >
+
+            <div class="show-horizontal">
+              <div class="info info1">
+                <div class="info-left">
+                  <img id='result-img' />
+                </div>
+                <div class="info-right">
+                  <div class="info-title"><span lang='en'>Airtest Report</span>
+                    <label id='result-desc' lang="en"></label>
+                  </div>
+                  <div class="info-content">
+                    <div class='info-sub start'></div>
+                    <div class='info-sub time'></div>
+                  </div>
+                  <div class="info-toal">
+                    <div class="info-step">
+                      <span class="info-name" lang="en">Steps: </span>
+                      <span class="info-value">6</span>
+                    </div>
+                    <div class="info-time">
+                      <span class="info-name" lang="en">Time: </span>
+                      <span class="info-value duration">xxx</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info info2">
+                <div class="info-left"></div>
+                <div class="info-right">
+                  <div class="info-title"><span lang='en'>Executors</span></div>
+                  <div class="info-content">
+                    <div class="info-execute">
+                      <div class="circle-img"></div>
+                      
+                        <div class="info-name"><span lang="en">Author:</span> hulu</div>
+                      
+                    </div>
+                    <div class="info-execute">
+                      <div class="circle-img"></div>
+                      <div class="info-file" title="D:\Users\hulu\PycharmProjects\my_airtest\test_food_search.air\test_food_search.py">test_food_search.air
+                        <img id="copy_path" path="D:\Users\hulu\PycharmProjects\my_airtest\test_food_search.air\test_food_search.py" title="copy file path to clipboard" src="static//image/copy.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="device" id='device'>
+          </div>
+
+          <div class="gallery">
+            <div class="info-title"><span lang="en">Quick view</span></div>
+            <div class="content">
+            </div>
+          </div>
+
+          <!-- 可以额外显示自定义模块，支持插入Html内容 -->
+          
+          <!--单步-->
+          
+
+          <div class="steps">
+            <div class="content">
+              <div class="steps-head">
+                <div class="head-left">
+                  <div class="order" id='order'><span lang="en">order</span></div>
+                  <div class="order" id='duration'><span lang="en">duration</span></div>
+                  <div class="order" id='status'><span lang="en">status</span></div>
+                </div>
+                <div class="head-right">
+                  <span lang="en" class="jump-wrong" id='jump-wrong'>Jump to wrong step</span>
+                  <span lang="en">Filter by:</span>
+                  <span class="filters">
+                    <span lang="en" class="filter" id="all" alt="show all steps">All</span>
+                    <span lang="en" class="filter" id='success' alt="show success steps only">Success</span>
+                    <span lang="en" class="filter" id='fail' alt="show failed steps only">Failed</span>
+                    <span lang="en" class="filter" id="assert" alt="show steps with assertion only">Assert</span>
+                  </span>
+                </div>
+              </div>
+              <div class="steps-content">
+                <div class="step-left" id='step-left'>
+                  <div class="step-list"></div>
+                  <div id="pageTool"></div>
+                </div>
+                <div class="step-right" id='step-right'></div>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+
+      
+      <div class="footer">
+        <div class="footer-content">
+          <div class="foo">
+            <div class="interfaces">
+              <a class="icon" href="https://github.com/AirtestProject/Airtest"  target="_blank">
+                <img src="static//image/Airtest.png" alt="airtest">
+              </a>
+              <a class="icon" href="https://github.com/AirtestProject/poco"  target="_blank">
+                <img src="static//image/poco.png" alt="Poco">
+              </a>
+            </div>
+          </div>
+          <div class="foo">
+            <div class="apps">
+              <a class="icon ide" href="http://airtest.netease.com/"  target="_blank">
+                <img src="static//image/AirtestIDE.png" alt="AirtestIDE">
+              </a>
+              <a class="icon" href="https://airlab.163.com/"  target="_blank">
+                <img src="static//image/AirLab.png" alt="AirLab">
+              </a>
+            </div>
+          </div>
+          <div class="foo">
+            <div class="corp">
+                <img src="static//image/netease.png" alt="NetEase">
+                <span lang="en">© 1997 - 2019 NetEase, Inc. All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      <!-- 录屏 -->
+      <div class="row gif-wrap show">
+          <div class="menu">
+            <div class="pattern pattern1">
+              <div class="minimize">
+                <img title="minimize" src="static//image/minimize.svg" />
+              </div>
+              <div class="close">
+                <img title="close" src="static//image/close.svg" />
+              </div>
+            </div>
+            <div class="pattern pattern2">
+              <div class="maximize">
+                <img title="maximize" src="static//image/maximize.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            
+          </div>
+        </div>
+    </div>
+
+  <link href="static//css/monokai_sublime.min.css" rel="stylesheet">  
+  <script src="static//js/highlight.min.js"></script>  
+  <script type="text/javascript" src="static//js/paging.js"></script>
+  <script src="static//js/report.js"></script>  
+</body>
+</html>

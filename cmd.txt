@@ -1,0 +1,7 @@
+airtest run D:\Users\hulu\PycharmProjects\my_airtest\test_food_search.air --device Android://127.0.0.1:5037/3EP7N18B16035167?cap_method=JAVACAP
+^&^&ori_method=ADBORI^&^&touch_method=ADBTOUTH --log log/log/
+
+airtest report D:\Users\hulu\PycharmProjects\my_airtest\test_food_search.air --log_root log/log/ --export log/
+
+rd/s/q D:\Users\hulu\PycharmProjects\my_airtest\log\log
+
